@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203740301773",
+    "project_id": "medex-49d69",
+    "storage_bucket": "medex-49d69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203740301773:android:2fcaa9bec8e5bc2a65dc84",
+        "android_client_info": {
+          "package_name": "com.example.medex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9N5UjKry0EnXcnW_QLRc3MNVPnHrXmkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
