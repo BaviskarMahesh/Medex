@@ -1,6 +1,6 @@
 # medex
 
-A new Flutter project.
+A Flutter project,Medex is medicine information  application  developed  using the OpenFDA API , It is a simple app that provides  information about various medicines just by entering the name.
 
 ## Getting Started
 
