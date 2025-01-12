@@ -31,7 +31,7 @@ class _SignUpPageState extends State<SignUpPage> {
               password: passWordController.text.trim());
       print(userCredential.user?.uid);
     } on FirebaseAuthException catch (e) {
-      print(e.message );
+      print(e.message);
     }
   }
 
@@ -44,7 +44,7 @@ class _SignUpPageState extends State<SignUpPage> {
         child: Form(
           key: formKey,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            // mainAxisAlignment: MainAxisAlignment.,
             children: [
               const Text(
                 "Sign Up",
@@ -53,9 +53,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   color: Colors.black,
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
+          
                 ),
               ),
               const SizedBox(
+                
                 height: 20,
               ),
               Container(
